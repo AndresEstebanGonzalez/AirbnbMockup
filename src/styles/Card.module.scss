@@ -1,0 +1,61 @@
+.card{
+    width: 17.7rem;
+    height: 30.2rem;
+    margin-right: 1.8rem;
+
+    .topContainer{
+        position: relative;
+        .availability {
+            position: absolute;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 6.1rem;
+            height: 2rem;
+            margin: 1.1rem 0 0 1.2rem;
+            border-radius: 0.2rem;
+            font-size: 1rem;
+            background-color: #FFFFFF;
+        }
+        .coverImg{
+            z-index: -1;
+            width: 17.6rem;
+            height: auto;
+            border-radius: 0.9rem;
+        }
+    }
+    .bottomContainer{
+        width: 17.6rem;
+        height: 5.8rem;
+        .rating{
+            margin-top: 0.9rem;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            padding: 0;
+            .star{
+                width: 1.4rem;
+                height: 1.4rem;
+                margin-right: 0.2rem;
+            }
+            .grey{
+                margin: 0;
+                font-size: 1.2rem;
+                font-weight: 300;
+                color: #918E9B;
+            }
+        }
+        .title{
+            margin: 0.8rem 0 0 0;
+            padding: 0;
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 1.3rem;
+        }
+        .price{
+            margin: 0.8rem 0 0 0;
+            font-size: 1.2rem;
+        }
+    }
+}
