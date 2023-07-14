@@ -1,10 +1,12 @@
 .card{
     width: 17.7rem;
-    height: 30.2rem;
+    height: 32.2rem;
     margin-right: 1.8rem;
 
     .topContainer{
         position: relative;
+        width: 17.7rem;
+        height: auto;
         .availability {
             position: absolute;
             z-index: 10;
@@ -21,7 +23,6 @@
         .coverImg{
             z-index: -1;
             width: 17.6rem;
-            height: auto;
             border-radius: 0.9rem;
         }
     }
